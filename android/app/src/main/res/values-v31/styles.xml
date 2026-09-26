@@ -1,0 +1,14 @@
+<resources>
+    <style name="LaunchTheme" parent="@android:style/Theme.Black.NoTitleBar">
+        <item name="android:windowSplashScreenBackground">@color/guardian_red</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/guardian_icon</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:navigationBarColor">@color/guardian_deep_red</item>
+        <item name="android:statusBarColor">@color/guardian_red</item>
+    </style>
+    <style name="NormalTheme" parent="@android:style/Theme.Black.NoTitleBar">
+        <item name="android:windowBackground">@color/guardian_red</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:navigationBarColor">@color/guardian_deep_red</item>
+    </style>
+</resources>
